@@ -1,0 +1,11 @@
+venv
+*.pyc
+*.pot
+*.log
+.ppk
+.pem
+Procfile
+runtime
+__pycache__
+.env
+.vscode/
