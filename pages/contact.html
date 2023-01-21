@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:site_name" content="BEELABBS">
     <meta property="og:title" content="Contact — BEELABBS">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
+    <meta property="og:url" content="https://beelabbs.vercel.app/">
+    <meta property="og:image" content="https://cdn.glitch.global/191a735d-de56-4cf2-aebb-b7f5981f3d40/bees.png?v=1674323778054">
     <meta property="og:image:width" content="1500">
     <meta property="og:image:height" content="1000">
     <meta property="og:type" content="website">
     <meta name="twitter:title" content="Contact — BEELABBS">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:url" content="">
+    <meta name="twitter:image" content="https://cdn.glitch.global/191a735d-de56-4cf2-aebb-b7f5981f3d40/bees.png?v=1674323778054">
+    <meta name="twitter:url" content="https://beelabbs.vercel.app/">
     <meta name="twitter:card" content="summary">
-    <meta itemprop="url" content="">
+    <meta itemprop="url" content="https://beelabbs.vercel.app/">
     <meta itemprop="name" content="Contact — BEELABBS">
-    <meta itemprop="image" content="">
+    <meta itemprop="image" content="https://cdn.glitch.global/191a735d-de56-4cf2-aebb-b7f5981f3d40/bees.png?v=1674323778054">
     <script type="text/javascript" async src="https://www.goggle-analytics.com/analytics.js"></script>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -30,6 +30,8 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-WTC9RPX');</script>
     <!-- End Google Tag Manager -->
+    <!-- reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- x-icon -->
     <link rel="shortcut icon" href="../images/icon/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="../images/icon/apple-touch-icon.png" type="image/x-icon" />
@@ -180,7 +182,7 @@
     <div class="contact padding-tb bg-color">
         <div class="container">
             <div class="section__wrapper">
-                <form method="" action="mailto:bu_chii@yahoo.com" id="contactForm">
+                <form method="post" action="https://formspree.io/xlekdaqy" id="contactForm">
                     <div class="contact__form focus__header">
                         <div class="form__content">
                             <label for="name">Full Name *</label>
@@ -202,6 +204,10 @@
                             <label for="subject">Message Details *</label>
                             <textarea placeholder="Your message" cols="132" rows="4" name="subject" id="subject"
                                 required></textarea>
+                        </div>
+
+                        <div class="form__content pt-4">
+                            <div class="g-recaptcha" data-sitekey="6Ld4YBckAAAAAFB7BmqL_XlGw2I_u7Y-XKxZBY8K"></div>
                         </div>
 
                         <div class="d-flex justify-content-center">
